@@ -38,9 +38,9 @@ def index():
 
         code = subprocess.call(args, stderr=subprocess.STDOUT, stdout=logfile)
         if code == -1:
-            sys.stderr.write('Error occured for path {}. Check log file for details.'.format(path))
+            sys.stderr.write('Error occured for path {0}. Check log file for details.'.format(path))
         else:
-            sys.stdout.write('Indexed {} successfully.'.format(path))
+            sys.stdout.write('Indexed {0} successfully.'.format(path))
 
 if __name__ == "__main__":
     index()
