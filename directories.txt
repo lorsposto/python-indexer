@@ -1,0 +1,26 @@
+/data/polar-local/Team1
+/data/polar-local/Team16/acadis.crawl
+/data/polar-local/Team16/ade.crawl
+/data/polar-local/Team16/amd.crawl
+/data/polar-local/Team18
+/data/polar-local/Team22
+/data/polar-local/Team29
+/data/polar-local/Team34/ACADIS.crawl
+/data/polar-local/Team34/AMD.crawl
+/data/polar-local/Team34/GCMD.crawl
+/data/polar-local/Team34/NSIDC.crawl
+/data/polar-local/Team36/FirstCrawl/first_amd
+/data/polar-local/Team36/FirstCrawl/first_aoncadis
+/data/polar-local/Team36/FirstCrawl/first_nsidc
+/data/polar-local/Team36/second crawl Raw/ADE_acadis
+/data/polar-local/Team36/second crawl Raw/AMD_nasa
+/data/polar-local/Team36/second crawl Raw/Aoncadis
+/data/polar-local/Team14
+/data/polar-local/Team41/acadis.crawl
+/data/polar-local/Team41/ade.crawl
+/data/polar-local/Team41/amd.crawl
+/data/polar-local/Team42
+/data/polar-local/Team43/acadis.crawl
+/data/polar-local/Team43/ade.crawl
+/data/polar-local/Team6/acadis
+/data/polar-local/Team6/acadis_plain
