@@ -1,6 +1,7 @@
 import subprocess
 import os
 import sys
+import re
 
 
 def index():
@@ -13,10 +14,15 @@ def index():
     logfile = open('python-indexer.log', 'w')
 
     for path in paths:
+        reg = re.compile('(Team\d+)')
+        find = reg.findall(path)
+        team = None
+        if len(find) > 0:
+            team = find[0].lower()
         args = [
             '/usr/local/polar/nutch/runtime/local/bin/nutch',
             'index',
-            '-Dsolr.server.url=http://polar.usc.edu/solr/polar2'
+            '-Dsolr.server.url=http://polar.usc.edu/solr/{team}'.format(team=team)
         ]
 
         crawldb = os.path.join(path, 'crawldb')
