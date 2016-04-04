@@ -42,6 +42,7 @@ def index():
             '-filter'
         ])
 
+        print 'Running:', args
         code = subprocess.call(args, stderr=subprocess.STDOUT, stdout=logfile)
         if code == -1:
             sys.stderr.write('Error occured for path {0}. Check log file for details.'.format(path))
